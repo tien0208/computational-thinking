@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "week12-1",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNxGxpU1Dcvv28X9C+qNFbs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/tien0208/computational-thinking/blob/main/week12_2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g02FSiFxr4Io",
+        "outputId": "7f5f147a-2a1f-4f20-80a5-82bfb96de09b"
+      },
+      "source": [
+        "season = \"1995-1996\"\n",
+        "team = \"Chicago Bulls\"\n",
+        "coach = \"Phil Jackson\"\n",
+        "records = [72, 10]\n",
+        "starting = [\"Ron Harper\", \"Michael Jordan\", \"Scottie Pippen\", \"Dennis Rodman\", \"Luc Longley\"]\n",
+        "champion = True\n",
+        "\n",
+        "best_NBA = list((season, team, coach, records, starting, champion)) #要有兩個小括號\n",
+        "print(best_NBA)\n",
+        "\n",
+        "print(type(best_NBA))\n",
+        "\n",
+        "print(best_NBA[-2])\n",
+        "\n",
+        "print(best_NBA[0:3])\n"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "['1995-1996', 'Chicago Bulls', 'Phil Jackson', [72, 10], ['Ron Harper', 'Michael Jordan', 'Scottie Pippen', 'Dennis Rodman', 'Luc Longley'], True]\n",
+            "<class 'list'>\n",
+            "['Ron Harper', 'Michael Jordan', 'Scottie Pippen', 'Dennis Rodman', 'Luc Longley']\n",
+            "['1995-1996', 'Chicago Bulls', 'Phil Jackson']\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
